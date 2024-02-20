@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-float {
+	width: 250px;
+	height: 250px;
+	float: inherit;
+}
+
+.parent-element {
+	background: skyblue;
+	padding: 10px;
+	position: relative;
+	height: 300vh;
+}
+
+.child-one {
+	background: gray;
+	padding: 10px;
+}
+
+.child-two {
+	background: yellow;
+	padding: 10px;
+	/*position: static; default*/
+	/*position: relative; relative to parent element*/
+	/*position: absolute; relative to most parent element*/
+	/*position: fixed; fixed on the position specified on screen*/
+	/*position: sticky; sticks to parent element, but fixed on screen when overscrolled*/
+	position: sticky;
+	/*position: absolute; */
+/*	left: 10px;
+	bottom: 10px;*/
+	top: 10px;
+}
+
+.child-three {
+	background: gray;
+	padding: 10px;
+}
+
+/*html {
+	height: 500vh;
+}*/
+
+.container {
+	position: relative;
+}
+
+.black-box {
+	position: relative;
+	border: 2px solid black;
+	height: 100px;
+	width: 30%;
+	z-index: 5;
+}
+
+.gray-box {
+	position: absolute;
+	/*border: 2px solid black;*/
+	background-color: lightgray;
+	height: 60px;
+	width: 70%;
+	left: 50px;
+	top: 50px;
+	z-index: 3;
+}
+
+.green-box {
+	position: absolute;
+	/*border: 2px solid black;*/
+	background-color: lightgreen;
+	height: 100px;
+	width: 35%;
+	left: 270px;
+	top: -15px;
+	z-index: 2;
+}
