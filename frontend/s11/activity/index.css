@@ -1,0 +1,170 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+ color: white;   
+ padding: 10px;
+ font-size: 1rem;
+ font-weight: 600;
+ border-color: transparent;
+ border-radius: 25px;
+ width: 9rem;
+}
+
+nav {
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: 1;
+}
+
+*/
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Google Font 'Open Sans' */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Button styling */
+button {
+    color: white;
+    padding: 10px;
+    width: calc(9 * 1em);
+    font-size: 1rem;
+    font-weight: 600;
+    border-color: transparent;
+    border-radius: 25px;
+}
+
+/* Nav styling */
+nav {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.right-nav {
+    float: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+.nav, .nav-logo {
+    margin: 8px;
+    padding: 3px;
+}
+
+/* Additional styling for Member 3 */
+#logo {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+#nav-button {
+    background-color: #c2195b;
+}
+
+#bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+/*#bg-image {
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-image: url("https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}*/
+
+/* Additional styling for Member 4 */
+.container {
+    text-align: right;
+    width: 40%;
+    position: relative;
+    left: 50%;
+}
+
+.title {
+    font-family: 'Zilla Slab', serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 75%;
+    margin-left: 9rem;
+    margin-top: 10px;
+}
+
+#apply-button {
+    margin-top: 10px;
+    background-color: #c2195b;
+}
+
+/* Additional styling for Member 5 */
+#main {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.title-2 {
+    font-family: 'Zilla Slab', serif;
+    padding: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#book-button {
+    background-color: #336589;
+}
+
+#book-description {
+    padding-bottom: 30px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer span {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
