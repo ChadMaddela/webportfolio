@@ -1,16 +1,16 @@
 /*CSS Reset*/
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #navbar-brand {
-	font-family: 'Protest Revolution', sans-serif;
+    font-family: 'Protest Revolution', sans-serif;
 }
 
 /* Custom Styles for Navbar */
@@ -86,8 +86,8 @@ body {
 }
 
 .last-updated: before {
-	position: absolute;
-	bottom: 10px;
+    position: absolute;
+    bottom: 10px;
     content: "8: 22pm";
     font-style: italic;
     font-size: 0.8rem;
@@ -98,4 +98,58 @@ body {
 .card-link {
     position: absolute;
     bottom: 10px; 
+}
+
+.underline {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+}
+
+#contact-information {
+    background-color: black;
+    color: cyan;
+    text-shadow: 0 0 10px cyan;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-glow {
+    background: none;
+    border: none;
+    border-radius: 50px;
+    color: #343a40;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-glow:hover {
+    background: cyan;
+    box-shadow: 0 0 10px cyan;
+    color: #fff;
+}
+
+#submit {
+	justify-content: right;
 }
